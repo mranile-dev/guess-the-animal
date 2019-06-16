@@ -1,0 +1,13 @@
+{
+        "Questions": {
+            "canFly": "Can this animal fly ?",
+            "canSwim": "Can it swim ?",
+            "liveInWater": "Does it live in the water ?",
+            "aggressive": "Is this an aggressive animal ?",
+            "venomous": "Is it venomous ?"
+            "pet": "Can I have it as pet ?",
+            "uniqueChar1": "Is it a {0} ?",
+            "uniqueChar2": "{0} ?"
+            "uniqueChar3": "{0} ?"
+        }
+}
