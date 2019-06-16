@@ -14,8 +14,8 @@ import java.util.Map;
  */
 interface Service {
     
-    public static final String animalsDSFile = "D:\\Work\\workspace\\GuestTheAnimal\\src\\main\\resources\\animals-datasource.json";
-    public static final String questionsDSFile = "D:\\Work\\workspace\\GuestTheAnimal\\src\\main\\resources\\questions-datasource.json";
+    public static final String animalsDSFile = "/animals-datasource.json";
+    public static final String questionsDSFile = "/questions-datasource.json";
     
     public boolean findAnimal(String name);
     public void saveNewAnimal(Animal animal);

@@ -43,8 +43,8 @@ public class ServiceImpl implements Service{
     
     public ServiceImpl(){
         try { 
-            this.animalsDS = (JSONObject)(new JSONParser().parse(new FileReader(animalsDSFile)));
-            this.questionsDS = (JSONObject)(new JSONParser().parse(new FileReader(questionsDSFile)));
+            this.animalsDS = (JSONObject)(new JSONParser().parse(new FileReader(getClass().getResource(animalsDSFile).getFile()))); 
+            this.questionsDS = (JSONObject)(new JSONParser().parse(new FileReader(getClass().getResource(questionsDSFile).getFile())));
         } catch (FileNotFoundException ex) {
             Logger.getLogger(ServiceImpl.class.getName()).log(Level.SEVERE, null, ex);
         } catch (IOException ex) {
